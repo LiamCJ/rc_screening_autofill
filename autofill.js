@@ -1,0 +1,13 @@
+document.getElementById("Campus").selectedIndex = 8;
+document.getElementById("quarantine").checked = true;
+document.getElementById("diarrhoea").checked = true;
+document.getElementById("diagnosed").checked = true;
+document.getElementById("vomiting").checked = true;
+document.getElementById("fatigue").checked = true;
+document.getElementById("throat").checked = true;
+document.getElementById("breath").checked = true;
+document.getElementById("fever").checked = true;
+document.getElementById("cough").checked = true;
+document.getElementById("aches").checked = true;
+document.getElementById("smell").checked = true;
+document.getElementById("eyes").checked = true; 

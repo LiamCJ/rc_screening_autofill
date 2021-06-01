@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "RC_Screening_Autofill",
+  "version": "1.0",
+
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+
+  "icons": {
+    "48": "icons/logo.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.rcscreening.co.za/*"],
+      "js": ["autofill.js"]
+    }
+  ]
+
+}
